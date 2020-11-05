@@ -1,0 +1,358 @@
+body{
+    background: black;
+}
+.head{
+   display: inline-flex;
+   color: white;
+   margin-left: 50px;
+
+}
+.head .h1{
+   margin-right: 50px;
+   border: none;
+   color: whitesmoke;
+   font-weight: 600;
+}
+.head .h2{
+    margin-right: 250px;
+   border: none;
+   color: whitesmoke;
+   font-weight: 600;
+}
+.h2 a{
+    color: rgb(116, 114, 114);
+    
+}
+.h2 a:hover{
+    color: turquoise;
+}
+.head .h3{
+    color: whitesmoke;
+   font-weight: 600;
+   margin-right: 70px;
+   
+}
+.icon i{
+    background: black; 
+   color: white;
+   padding: 10px;
+}
+.icon i:hover{
+    background: rgb(53, 117, 214);
+    color: white;
+    border-radius: 20%;
+}
+.menu-bar{
+    background: rgb(54, 51, 51);
+    border: none;
+    width: 100%;
+}
+.menu{
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(185, 184, 184);
+    margin-left: 40px;
+}
+
+.l1{
+    margin-left: 50px;
+}
+.menu .list ul{
+    /* background: rgb(62, 156, 243); */
+    padding: 8px;
+}
+.menu .list ul li{
+    display: inline;
+    margin-right: 0.5px;
+
+}
+.menu .list ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7.5px; 
+    font-weight: 700;
+    /* outline: none; */
+    border: none;}
+
+.list ul li a:hover{
+    background: #000;
+    color: white;
+    /* padding: 10px; */
+}
+ .btn{
+    background-image: url(../images/img02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+     opacity: .6;
+    /* margin-top: -250px; */
+    
+} 
+.pic{
+    /* background-repeat: no-repeat; */
+    
+    
+}
+/* .pic img{
+    
+    height: 400px;
+    width: 100%; 
+   opacity: .26;
+   
+}  */
+.btn h1{
+    color: darkblue;
+     /* margin-top: 350px;  */
+     text-align: left; 
+    text-transform: capitalize;
+    font-size: 36px;
+    padding: 10px;
+     /* opacity: .8; */
+    /* overflow: hidden;  */
+    /* margin-bottom: 100px; */
+    font-weight: 700;
+    text-shadow: 3px 2px 3px black;
+}
+.btn span{
+    color: aqua;
+    font-weight: 700;
+}
+.btn h3{
+    color: whitesmoke;
+    /* margin-top: -150px; */
+    text-align: center;
+    /* opacity: 1;
+    overflow: hidden; */
+    text-shadow: 3px 2px 3px black;
+}
+ .btn button{
+    
+    box-shadow: 9px 10px 9px black;
+    color: darkblue;
+    background: rgb(114, 157, 235);
+    opacity: .7;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.btn button:hover{
+    background: #000;
+    color: #fff;
+    /* opacity: .8;
+    overflow: hidden; */
+    
+}
+.crd h1{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 2px 3px wheat;
+    
+}
+.card{
+    display: inline-flex;
+
+}
+.card p{
+    color: white;
+}
+.c01{
+    /* background: rgb(27, 25, 25); */
+    background-size: cover;
+    /* margin-right: 10px; */
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.c02{
+    /* background: rgb(27, 25, 25); */
+    background-size: cover;
+    /* margin-right: 10px; */
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.c03{
+    /* ; */
+    background-size: cover;
+    /* margin-right: 10px; */
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.c01 h1, .c02 h1, .c03 h1{
+    font-size: 20px;
+    text-shadow: 3px 2px 3px ghostwhite;
+}
+.crd-2{
+    background: rgb(51, 48, 48);
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.crd-2 h1{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 2px 3px black;
+    
+}
+.card-2{
+    display: inline-flex;
+}
+.c201:hover{
+    background: rgb(27, 25, 25);
+}
+.c203:hover{
+    background: rgb(27, 25, 25);
+}
+.c201 h1, .c202 h1, .c203 h1{
+    font-size: 20px;
+    color: rgb(51, 91, 223);
+    text-shadow: 4px 3px 4px black;
+
+}
+.c201 p, .c202 p, .c203 p{
+    color: honeydew;
+
+}
+.c202{
+    background: rgb(27, 25, 25);
+    background-size: cover;
+    /* margin-right: 10px; */
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.c203, .c201{
+    /* ; */
+    background-size: cover;
+    /* margin-right: 10px; */
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.card-2 i{
+    margin-left: 100px;
+    color: white;
+    border: 1px solid rgb(18, 114, 224);
+    font-size: 25px;
+    padding: 10px;
+}
+.c201 i, .c202 i, .c203 i{
+    margin-left: 150px;
+}
+.card-2 i:hover{
+    background: rgb(53, 106, 221);
+    color: white;
+    border-radius: 20px;
+}
+.cntc{
+    /*  */
+    font-size: 20px;
+    font-weight: 500 ;
+    color: whitesmoke;
+    /*  */
+    margin-top: 50px;
+    background: rgb(15, 15, 15);
+
+}
+.cntc h1{
+    text-align: center;
+    text-shadow: 3px 2px 3px gainsboro;
+    font-size: 35px;
+    font-weight: 700;
+   
+}
+.pt{
+    display: inline-flex;
+    
+}
+.inpt{
+    margin-right: 150px;
+    margin-left: 100px;
+    /* padding-bottom: 5px; */
+    }
+    .in1,.in2,.in3{
+        margin-bottom: 5px;
+    }
+    input{
+        padding: 10px;
+    border: none;
+    background: black;
+    border: 1px solid aqua;
+    outline: none;
+    color: white;
+    width: 110%;
+    }
+    .cntc button{
+        padding: 10px;
+        border: none;
+        background: cornflowerblue;
+        /*  */
+        outline: none;
+        color: darkblue;
+        font-weight: 600;
+        width: 100%;
+        font-size: 20px;
+    }
+    .cntc button:hover{
+        border: 1px solid aqua;
+        color: rgb(14, 8, 8);
+        box-shadow: 2px 5px 8px rgb(100, 99, 99);
+        border-radius: 10px;
+        transition: 1s;
+        
+        
+    }
+    .cc h1{
+        text-align: left;
+        color: rgb(29, 89, 202);
+    }
+    .cc i{
+        margin-left: 50px;
+        border: 1px solid cornflowerblue;
+        padding: 5px;
+    }
+    .cc i:hover{
+        border-radius: 10px;
+        color: white;
+        background: rgb(20, 46, 192);
+
+
+    }
+    .final{
+        background: rgb(29, 28, 28);
+        color: whitesmoke;
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 15px;
+        
+    }
+    .final p{
+        margin-left: 400px;
+    }
+    .final a{
+        color: cornflowerblue;
+    }
+    .final a:hover{
+        color: aqua;
+    }
+    .tnx{
+        background: black;
+        font-style: italic;
+        margin-top: 20px;
+        font-size: 35px;
+        text-shadow: 3px 3px 2px rgb(68, 68, 68);
+        color: rgb(0, 255, 255);
+        padding: 10px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .tnx:hover{
+        border-radius: 15px;
+        background: black;
+        color: rgb(111, 111, 184);
+
+    }
